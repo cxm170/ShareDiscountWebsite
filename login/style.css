@@ -1,0 +1,209 @@
+@charset "utf-8";
+p,ol {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 150%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+body{
+	background:#eaf5fe url(images/bg.gif) repeat top left;
+}
+form {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #0066CC;
+}
+a:visited {
+	color: #0066CC;
+}
+a:hover {
+	color: #FF0000;
+}
+.dataDiv {
+	margin: 10px;
+}
+
+.title {
+	font-family: Comic Sans MS, "Verdana", Times, serif;;
+	font-size: 24pt;
+	font-weight: bolder;
+	color: #566ea1;
+}
+.heading {
+	font-family: Georgia, "Arial", Times, serif;;
+	font-size: 13pt;
+	color: #0066CC;
+	line-height: 150%;
+	font-weight: bold;
+	font-style: italic;
+}
+.smalltext {
+	font-size: 11px;
+	color: #999999;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	vertical-align: middle;
+}
+
+.trademark {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #0099FF;
+}
+.regbox {
+	border: 1px solid #656565;
+	padding: 15px;
+	background-color: #fcf9ed;
+}
+.boxtl {
+	background-image: url(images/tl.gif);
+	float: left;
+	top: -1px;
+	height: 4px;
+	width: 4px;
+	background-repeat: no-repeat;
+}
+.boxtr {
+	background-image: url(images/tr.gif);
+	float: right;
+	top: -1px;
+	height: 4px;
+	width: 4px;
+	background-repeat: no-repeat;
+}
+.boxbl {
+	background-image: url(images/bl.gif);
+	float: left;
+	top: -1px;
+	height: 4px;
+	width: 4px;
+	background-repeat: no-repeat;
+	margin-top: -4px;
+}
+.boxbr {
+	background-image: url(images/br.gif);
+	float: right;
+	top: -1px;
+	height: 4px;
+	width: 4px;
+	background-repeat: no-repeat;
+	margin-top: -4px;
+}
+.tdrline {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999999;
+}
+.tdbline {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+.clear {
+	clear: both;
+}
+.logintextbox {
+	width: 100%;
+}
+.errDiv {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+	background-color: #FF0000;
+	padding: 4px;
+	text-align: center;
+}
+.facebook{
+	background:url(images/facebook.png);
+	width:150px;
+	height:30px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	border: 0px;
+	cursor:pointer;
+}
+
+.login{
+	background:url(images/loginsub.png);
+	width:120px;
+	height:32px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	border: 0px;
+	cursor:pointer;
+	margin-bottom:4px;
+}
+
+input[type="text"], input[type="password"]{
+		box-shadow: 0px 0px 0px 1px #f2f5f7;
+		width: 162px;
+		height: 32px;
+
+		padding: 0 10px 0 10px;
+		margin: 0 auto;
+		color: #aeaeae;
+		border: 1px solid #bec2c4;
+	}
+	
+input[type="text"]:focus, input[type="password"]:focus{
+		box-shadow: 0px 0px 0px 1px #e0f1fc;
+		border:1px solid #ffa07a;
+	}
+	
+input[type="text"]:focus, 
+input[type="password"]:focus {
+    box-shadow: inset 0 0 2px #000;
+    background: #ffffe0;
+    outline: none; /* Remove Chrome outline */
+
+} /*
+input[type=submit], input[type="reset"],input[type="button"] {
+    /* Width and position */
+	/*
+    width: 162px;
+	padding: 8px 5px;
+  
+    /* Styles */
+	/*
+    border: 1px solid #0273dd; /* Fallback */
+	/*
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        inset 0 10px 10px rgba(255,255,255,0.1);
+    border-radius: 3px;
+    background: #38a6f0;
+    cursor:pointer;
+  
+    /* Font styles */
+	/*
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+}
+
+
+
+ input[type=submit]:hover,input[type="reset"]:hover ,input[type="button"]:hover { 
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+ input[type=submit]:active, input[type="reset"]:active ,input[type="button"]:active { 
+    background: #287db5;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
+    border-color: #000; /* Fallback */
+	/*
+    border-color: rgba(0,0,0,0.9);
+}
+
+ input[type=submit]:hover, input[type="reset"]:hover ,input[type="button"]:hover {
+    background: #2a92d8;
+}*/
+
